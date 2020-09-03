@@ -1,0 +1,65 @@
+<ion-content [fullscreen]="true" style="--ion-background-color: rgb(233, 233, 233);">
+  <div style="padding: 1rem 1rem;">
+    
+    <ion-grid style="background-color: rgb(255, 255, 255); padding: 1rem 1rem;" class="shadow rounded">
+      <div style="text-align: center;">
+        <ion-row>
+          <ion-col size="1">
+            <ion-button color="dark" style="--border-radius: 130px;" [routerLink]="['/home']" routerLinkActive="router-link-active" >
+              <ion-icon  name="arrow-undo-outline"></ion-icon>
+            </ion-button>
+          </ion-col>
+          <ion-col size="11">
+            <h1>Formulario</h1>
+          </ion-col>
+        </ion-row>
+    </div>  
+
+    <hr class="bg-dark mb-5">
+
+      <ion-row class="mb-4 mt-1" >
+        <ion-col>
+          <input type="text" class="form-control" name="nombre"  [(ngModel)]="asiento.titulo" placeholder="Nombre del asiento" style="text-align: center;">
+        </ion-col>
+      </ion-row>
+
+      <ion-row style="text-align: center;" class="mb-4">
+        <ion-col>
+          haber
+        </ion-col>
+        <ion-col>
+          <ion-toggle color="dark" [(ngModel)]="debe"></ion-toggle>
+        </ion-col>
+        <ion-col>
+          debe
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="mb-5">
+        <ion-col>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" style="background-color: rgb(248, 248, 220); border: 1px solid rgb(255, 255, 6);">$</span>
+            </div>
+            <input type="number" class="form-control" placeholder="Monto" style="text-align: center;" name="monto" [(ngModel)]="monto">
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row style="border: 1px solid #9c9c9cb9; border-radius: 10px;" class="mb-5">
+        <ion-col>
+          <ion-textarea placeholder="Agrege un texto adjunto a su asiento" name="detalle" [(ngModel)]="asiento.detalle"></ion-textarea>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col style="text-align: center;">
+          <ion-button color="dark" (click)="altaAsiento()" *ngIf="!editar">Agregar Asiento</ion-button>
+          <ion-button color="dark" (click)="asientoEditado()" *ngIf="editar">Editar Asiento</ion-button>
+
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+  </div>
+</ion-content>

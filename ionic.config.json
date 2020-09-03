@@ -1,7 +1,8 @@
 {
   "name": "contabilidapp",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
