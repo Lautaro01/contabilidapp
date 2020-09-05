@@ -10,4 +10,9 @@
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 
+ div
+ {
+   color: #333333;
+ }
+
  @-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}

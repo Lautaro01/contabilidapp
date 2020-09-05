@@ -13,11 +13,13 @@ export class HomePage {
 
   info;
   resultado;
+
   slideOpts = {
     initialSlide: 1,
     speed: 1000
   };
-
+  
+  asientos : Asientos[];
 
   constructor(private servis : DataService,
     public loadingController: LoadingController,
@@ -34,6 +36,7 @@ export class HomePage {
     await this.servis.asientos.subscribe(
       async datos =>{
         this.asientos = await datos;
+        console.log(this.asientos);
         this.saldo();
         loading.dismiss();
       }
@@ -41,7 +44,7 @@ export class HomePage {
     
   }
 
-  asientos : Asientos[];
+  
 
   verMas( id : any)
   {
