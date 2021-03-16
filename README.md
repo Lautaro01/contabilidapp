@@ -13,7 +13,7 @@ Es una demostracion de una app simple para agregar asientos contables, se contec
 Al ser una demostracion simple no cuenta un logeo propio, pero es una demostracion 😋.
 
 ## Menu Principal
-_En el menu se muestra la lista de asientos contables agregados recientemente_
+_En el menu se muestra la lista de asientos contables agregados recientemente. discriminando (notablemente) ingresos de egresos, y dando un total en la parte inferior_
 
 ![image](https://user-images.githubusercontent.com/36265003/111327213-f40b9100-864b-11eb-8ffd-8c2ebd5b12e9.png)
 
