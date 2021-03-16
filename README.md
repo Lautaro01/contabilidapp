@@ -1,4 +1,4 @@
-# Contabilidapp
+# Contabilid-App 📊
 
 Aplicacion desarrollada en Ionic para mantener un estado contable simple. 
 Full responsive, si bien esta pensada como una APK, tambien tiene su version web, como una progressive web app PWA.
