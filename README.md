@@ -15,7 +15,7 @@ _En el menu se muestra la lista de asientos contables agregados recientemente_
 ![image](https://user-images.githubusercontent.com/36265003/111327213-f40b9100-864b-11eb-8ffd-8c2ebd5b12e9.png)
 
 ## Informacion de Asientos
-_Cliqueando en cualquier asiento podemos ver datos mas detallados de este y la posibilidad de editar y elminar el asiento... Incleible 😳_
+_Cliqueando en cualquier asiento podemos ver datos mas detallados de este y la posibilidad de editar y elminar el asiento... Increible 😳_
 
 ![image](https://user-images.githubusercontent.com/36265003/111328311-e4d91300-864c-11eb-978d-40dc5a9a3266.png)
 
